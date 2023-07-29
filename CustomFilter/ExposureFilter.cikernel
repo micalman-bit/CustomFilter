@@ -1,6 +1,0 @@
-kernel vec4 exposureFilter(sampler image, float intensity) {
-    vec4 inputColor = sample(image, samplerCoord(image));
-    vec3 exposureColor = inputColor.rgb * (1.0 + intensity / 100);
-    return vec4(exposureColor, inputColor.a);
-}
-

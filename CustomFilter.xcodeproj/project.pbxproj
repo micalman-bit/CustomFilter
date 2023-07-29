@@ -11,7 +11,6 @@
 		C42315042A7519F0008216D5 /* CustomFilterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C42315032A7519F0008216D5 /* CustomFilterView.swift */; };
 		C42315062A7519F3008216D5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C42315052A7519F3008216D5 /* Assets.xcassets */; };
 		C42315092A7519F3008216D5 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C42315082A7519F3008216D5 /* Preview Assets.xcassets */; };
-		C423151F2A75383F008216D5 /* ExposureFilter.cikernel in Sources */ = {isa = PBXBuildFile; fileRef = C423151E2A75383F008216D5 /* ExposureFilter.cikernel */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,7 +19,6 @@
 		C42315032A7519F0008216D5 /* CustomFilterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomFilterView.swift; sourceTree = "<group>"; };
 		C42315052A7519F3008216D5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C42315082A7519F3008216D5 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		C423151E2A75383F008216D5 /* ExposureFilter.cikernel */ = {isa = PBXFileReference; lastKnownFileType = text; path = ExposureFilter.cikernel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,7 +55,6 @@
 				C42315032A7519F0008216D5 /* CustomFilterView.swift */,
 				C42315052A7519F3008216D5 /* Assets.xcassets */,
 				C42315072A7519F3008216D5 /* Preview Content */,
-				C423151E2A75383F008216D5 /* ExposureFilter.cikernel */,
 			);
 			path = CustomFilter;
 			sourceTree = "<group>";
@@ -141,7 +138,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				C42315042A7519F0008216D5 /* CustomFilterView.swift in Sources */,
-				C423151F2A75383F008216D5 /* ExposureFilter.cikernel in Sources */,
 				C42315022A7519F0008216D5 /* CustomFilterApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
