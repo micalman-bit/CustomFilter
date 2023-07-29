@@ -10,7 +10,6 @@ import CoreImage
 
 struct CustomFilterView: View {
     @State private var intensity: Double = 0.0
-    @State private var originalImage: UIImage?
     @State private var filteredImage: UIImage?
 
     var body: some View {
@@ -35,7 +34,7 @@ struct CustomFilterView: View {
         .padding()
     }
 
-    func applyFilter() {
+    private func applyFilter() {
         guard let inputImage = UIImage(named: "image") else {
             return
         }
